@@ -1,5 +1,5 @@
 {
-	"name": "svelte-learningblocks",
+	"name": "svelte-learning_blocks",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
@@ -23,18 +23,18 @@
 		"postcss": "^8.4.18",
 		"prettier": "^2.6.2",
 		"prettier-plugin-svelte": "^2.7.0",
-		"svelte": "^3.44.0",
+		"svelte": "^3.52.0",
 		"svelte-check": "^2.7.1",
 		"svelte-preprocess": "^4.10.7",
 		"tailwindcss": "^3.2.0",
 		"tslib": "^2.3.1",
-		"typescript": "^4.7.4",
-		"vite": "^3.1.0"
+		"typescript": "^4.8.4",
+		"vite": "^3.1.8",
+		"type-fest": "^3.1.0"
 	},
 	"type": "module",
 	"dependencies": {
 		"@aicacia/rand": "^0.2.11",
-		"mathlive": "^0.79.0",
-		"type-fest": "^3.1.0"
+		"mathlive": "^0.79.0"
 	}
 }

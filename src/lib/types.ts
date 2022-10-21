@@ -1,5 +1,9 @@
 import type { JsonValue } from "type-fest";
 
+/**
+ * Multiple Choice Questions  
+ **/
+
 export type IChoice = {
     id: number;
     userSelected: boolean;
@@ -22,4 +26,23 @@ export type IChoiceList = {
 
 export type IAnsweredChoiceList = {
     choices: IAnsweredChoice[];
+}
+
+/**
+ * Content Rendering
+ **/
+
+export type IStepDisplayType = "none" | "number" | "name";
+
+export type Step = {
+    value: JsonValue;
+    name?: string;
+}
+
+export type IStepwiseContentDisplay = {
+    steps: Step[];
+    options: {
+        startWithFirstStepShown?: boolean;
+        stepDisplayType?: IStepDisplayType;
+    }
 }
