@@ -29,6 +29,33 @@ export type IAnsweredChoiceList = {
 }
 
 /**
+ * True/False Questions
+ **/
+
+export type ITrueFalse_Choice = {
+    id: number;
+    userSelected: boolean;
+}
+
+export type ITrueFalse_TrueDisplayValue = "true" | "yes" | JsonValue;
+export type ITrueFalse_FalseDisplayValue = "false" | "no" | JsonValue;
+
+export type ITrueFalse_DEFAULT_TRUE_VALUE = "true";
+export type ITrueFalse_DEFAULT_FALSE_VALUE = "false";
+
+export type ITrueFalse_Options = {
+    randomizeChoiceOrder?: boolean;
+    choiceTrueDisplayValue: ITrueFalse_TrueDisplayValue;
+    choiceFalseDisplayValue: ITrueFalse_FalseDisplayValue;
+}
+
+export type ITrueFalse = {
+    choiceTrue: ITrueFalse_Choice,
+    choiceFalse: ITrueFalse_Choice,
+    options: ITrueFalse_Options
+}
+
+/**
  * Content Rendering
  **/
 
