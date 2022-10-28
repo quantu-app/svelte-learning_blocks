@@ -56,6 +56,15 @@ export type ITrueFalse = {
 }
 
 /**
+ * Text Input Questions
+ */
+export type ResponseChecker = string | RegExp;
+export type IMatchTextInput = {
+    correctResponses: ResponseChecker[],
+    useRegex: boolean;
+}
+
+/**
  * Content Rendering
  **/
 
