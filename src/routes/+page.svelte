@@ -7,6 +7,9 @@
 		<a href="/examples/multiple-choice" class="text-blue-500">Multiple Choice</a>
 	</li>
 	<li>
+		<a href="/examples/mc2" class="text-blue-500">Multiple Choice 2</a>
+	</li>
+	<li>
 		<a href="/examples/true-false" class="text-blue-500">True/False</a>
 	</li>
 	<li>

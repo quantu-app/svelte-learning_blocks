@@ -26,6 +26,7 @@ export type IChoiceList = {
 
 export type IAnsweredChoiceList = {
     choices: IAnsweredChoice[];
+    options: IChoiceListOptions;
 }
 
 /**
